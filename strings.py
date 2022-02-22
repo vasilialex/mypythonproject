@@ -12,9 +12,4 @@ print(b)
 
 
 b = (b.strip("."))
-print(b)
 
-
-c = (b.title)
-
-print(c)
