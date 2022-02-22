@@ -12,8 +12,4 @@ print(b)
 
 
 b = (b.strip("."))
-print(b.title())
-
-
-
 
