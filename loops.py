@@ -7,7 +7,7 @@ for my_age in range(0,100):
         break
 
 
-x=9999
+x=8888
 while True:
     print(x)
     x = x + 1
