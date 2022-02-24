@@ -1,10 +1,4 @@
-
-
-
-
 names=['Vasiliy', 'Peter', 'Alex', 'Mark']
-
-
 print(names)
 print(names[3].upper())
 
@@ -24,6 +18,11 @@ print(names)
 print("---------------Delete in list--------------------")
 del names[3]
 print(names)
-
 names.remove('Mark')
+print(names)
+
+
+# Sort list
+print("---------------Sort in list--------------------")
+names.sort()    
 print(names)
