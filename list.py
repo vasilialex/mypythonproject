@@ -1,7 +1,5 @@
 
 
-from ast import Delete
-from unicodedata import name
 
 
 names=['Vasiliy', 'Peter', 'Alex', 'Mark']
