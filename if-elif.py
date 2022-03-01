@@ -10,10 +10,12 @@ else:
 
 
 all_cars = ['BMW', 'AUDI', 'MAZDA', 'SEAT', 'FORD']
-my_cars = ['BMW', 'AUDI']
+my_cars = ['BMW', 'AUDI', 'FORD']
 
 for i in all_cars:
     if i in my_cars:
         print( i + " ""my_cars" )
     else: print(i + " " "dont have car")
+
+
 
