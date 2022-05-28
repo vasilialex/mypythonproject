@@ -1,9 +1,5 @@
 
 
-from re import L
-from sunau import AUDIO_FILE_ENCODING_ALAW_8
-
-
 my_hero = {
     'age':      30,
     'health':   100,
@@ -11,16 +7,12 @@ my_hero = {
     'posit_y':  25,
     'color':    'blue',
     'name':     'vasiliy',
-
-
-
 }
 
+print(str(my_hero['name']) + " " "my_hero_age" + str(my_hero['age']) + "  " + str(my_hero['health']) + "my_health")
 
+print(str(my_hero['color']))
 
-print( str(my_hero['age'])  + "my_eage" + "  " + str(my_hero['health']) + "my_health")  
-
-my_hero['achive'] = 1 
-
-print(my_hero)
+my_hero['achive'] = 1
+#print(my_hero)
 
